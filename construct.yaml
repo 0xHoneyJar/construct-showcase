@@ -74,8 +74,9 @@ events:
     - event: forge.easel.taste_recorded
 
 pack_dependencies:
-  - slug: k-hole
-    version: ">=1.0.0"
+  required:
+    - slug: k-hole
+      version: ">=1.0.0"
   optional:
     - slug: the-easel
       reason: "Aesthetic vocabulary and taste decisions feed into visual metaphor selection"
