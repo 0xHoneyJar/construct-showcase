@@ -55,6 +55,19 @@ expertise:
   - landing page layout
   - data presentation
 
+governed_by:
+  - artisan
+
+composition_paths:
+  reads:
+    - grimoires/
+
+compose_with:
+  - slug: artisan
+    relationship: "Showcase decides what to present and how. Artisan builds the implementation with taste tokens."
+  - slug: the-easel
+    relationship: "Easel's visual vocabulary and taste decisions feed into Showcase's metaphor selection."
+
 events:
   emits:
     - type: forge.showcase.pattern_discovered
