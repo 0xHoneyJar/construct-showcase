@@ -98,6 +98,17 @@ pack_dependencies:
     - slug: vfx-playbook
       reason: "VFX principles for card visual treatments"
 
+capabilities:
+  model_tier: sonnet
+  danger_level: safe
+  effort_hint: medium
+  downgrade_allowed: true
+  execution_hint: parallel
+  requires:
+    tool_calling: true
+    thinking_traces: false
+    vision: false
+
 hooks:
   post_install: scripts/install.sh
 
