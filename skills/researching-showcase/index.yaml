@@ -11,5 +11,5 @@ triggers:
   - "dig into card design"
 capabilities:
   model_tier: opus
-  danger_level: low
-  effort_hint: heavy
+  danger_level: safe
+  effort_hint: high
