@@ -13,5 +13,5 @@ triggers:
   - "what should this card look like"
 capabilities:
   model_tier: sonnet
-  danger_level: low
+  danger_level: safe
   effort_hint: medium

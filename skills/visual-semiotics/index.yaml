@@ -13,5 +13,5 @@ triggers:
   - "visual meaning"
 capabilities:
   model_tier: sonnet
-  danger_level: low
-  effort_hint: light
+  danger_level: safe
+  effort_hint: low
